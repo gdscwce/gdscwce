@@ -4,6 +4,8 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import Sector1 from '../components/Section1'
+import Sector2 from '../components/Section2'
+import Sector3 from '../components/Section3'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,8 +20,11 @@ export default function Home() {
       </Head>
       <main >
         <Navbar />
-        <div className='sections flex flex-col items-center p-0'>
+        <div className='sections flex flex-col items-center px-3 sm:px-8 md:px-16 '>
           <Sector1 />
+          <Sector2 />
+          <Sector3 />
+         
         </div>
       </main>
     </>
