@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar'
 import Sector1 from '../components/Section1'
 import Sector2 from '../components/Section2'
 import Sector3 from '../components/Section3'
+import Footer from '../components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,8 +25,8 @@ export default function Home() {
           <Sector1 />
           <Sector2 />
           <Sector3 />
-         
         </div>
+        <Footer />
       </main>
     </>
   )

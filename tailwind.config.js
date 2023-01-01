@@ -17,12 +17,14 @@ module.exports = {
       },
       boxShadow: {
         'contact': 'rgba(66, 133, 244,1)0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;',
+        'footer': '0px 5px 12px rgba(0, 0, 0, 0.35)'
       },
       padding: {
         '3.5': '0.775rem',
       },
       height: {
         '80vh': 'calc(100vh - 5rem)',
+        '50vh': 'calc(100vh - 22rem)',
       }
     },
   },
