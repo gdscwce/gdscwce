@@ -1,8 +1,8 @@
 import React from 'react';
-import hero from '../../public/assets/hero3_v2.png';
+import hero from '../../../public/assets/hero3_v2.png';
 import Image from 'next/image';
 
-const Sector3 = () => {
+const Section3 = () => {
 	return (
 		<div className='  lg:h-80vh mt-20 md:mt-10 mb-20 flex  items-center justify-center '>
 			<div className='hero flex    items-center  flex-col '>
@@ -52,4 +52,4 @@ const Sector3 = () => {
 	);
 };
 
-export default Sector3;
+export default Section3;

@@ -1,9 +1,9 @@
 import React from 'react';
-import hero from '../../public/assets/hero.png';
+import hero from '../../../public/assets/hero.png';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const Sector1 = () => {
+const Section1 = () => {
 	return (
 		<div className='  lg:h-80vh  flex items-center justify-center '>
 			<div className='hero flex mt-20  lg:-mt-12 lg:flex-row flex-col'>
@@ -35,4 +35,4 @@ const Sector1 = () => {
 	);
 };
 
-export default Sector1;
+export default Section1;
