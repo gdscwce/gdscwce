@@ -5,8 +5,8 @@ import Link from 'next/link';
 
 const Section1 = () => {
 	return (
-		<div className='  lg:h-80vh  flex items-center justify-center '>
-			<div className='hero flex mt-20  lg:-mt-12 lg:flex-row flex-col'>
+		<div className='h-screen  flex items-center justify-center '>
+			<div className='hero flex mt-20 sm:mt-52   lg:-mt-20 lg:flex-row flex-col'>
 				<div className='hero-text lg:w-1/2  p-3 flex flex-col flex-nowrap  justify-center items-start space-y-8 pr-0 sm:pr-12 md:pr-40'>
 					<h1 className='hero-title text-4xl font-bold tracking-wide'>
 						Welcome to
