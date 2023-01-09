@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import AllTeamsBrief from './AllTeamsBrief';
 import TeamsBackground from './Background';
 
 const Teams = () => {
@@ -11,8 +12,12 @@ const Teams = () => {
 			<TeamsBackground />
 			<div className='teams-section p-3  sm:px-8 sm:py-5 md:px-16 md:my-12 '>
 				<div className='team-head flex justify-between py-5 '>
+					{' '}
+					{/* Teams page head  */}
 					<span className='text-3xl font-semibold'>Teams</span>
 					<div>
+						{' '}
+						{/* Drop down to select year  */}
 						<button
 							className='text-gray-600 border-b-2  font-medium text-sm px-4 py-2.5 text-center inline-flex items-center'
 							type='button'
@@ -33,12 +38,11 @@ const Teams = () => {
 								/>
 							</svg>
 						</button>
-
 						{/* <!-- Dropdown menu --> */}
 						<div
 							className={` ${
 								open ? 'block' : 'hidden'
-							} bg-white text-base z-50 list-none divide-y divide-gray-100 rounded shadow my-4`}
+							} bg-white text-base z-50 list-none divide-y divide-gray-100 rounded shadow shadow-gdsc-red my-4`}
 							id='dropdown'>
 							<ul className='py-1' aria-labelledby='dropdown'>
 								{years.map((ele) => {
@@ -61,11 +65,16 @@ const Teams = () => {
 									);
 								})}
 							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+						</div>{' '}
+						{/* <!-- Dropdown menu --> */}
+					</div>{' '}
+					{/* Drop down to select year  */}
+				</div>{' '}
+				{/* Teams Brief section  */}
+				<AllTeamsBrief />
+			</div>{' '}
+			{/* Teams section  */}
+		</div> //
 	);
 };
 
