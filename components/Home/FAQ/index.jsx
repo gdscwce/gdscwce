@@ -1,4 +1,4 @@
-import { Fragment, useState } from 'react';
+import {  useState } from 'react';
 import {
 	Accordion,
 	AccordionHeader,
@@ -58,21 +58,21 @@ const FAQ = () => {
 							GDSC provides the community with the opportunity to:
 							<ul className=' sm:pl-3 md:pl-5 list-disc space-y-2 pt-3 '>
 								<li className='flex items-center space-x-2'>
-									<Image className='w-4 h-4' src={tick} />
+									<Image alt='GDSC' className='w-4 h-4' src={tick} />
 									<span>
 										Growing their knowledge of developer technologies and more
 										through peer to peer workshops and events.
 									</span>
 								</li>
 								<li className='flex items-center space-x-2'>
-									<Image className='w-4 h-4' src={tick} />
+									<Image alt='GDSC' className='w-4 h-4' src={tick} />
 									<span>
 										Gaining relevant experience by solving problems for local
 										organizations with technology-based solutions.
 									</span>
 								</li>
 								<li className='flex items-center space-x-2'>
-									<Image className='w-4 h-4' src={tick} />
+									<Image alt='GDSC' className='w-4 h-4' src={tick} />
 									<span>
 										Showcaseing their prototypes and solutions to the local
 										community and industry leaders.

@@ -28,7 +28,7 @@ const Section1 = () => {
 					</Link>
 				</div>
 				<div className='hero-image-container  flex  lg:w-1/2  justify-center p-3 sm:p-6 md:p-12'>
-					<Image className='hero-image  h-full' src={hero} />
+					<Image alt='GDSC' className='hero-image  h-full' src={hero} />
 				</div>
 			</div>
 		</div>

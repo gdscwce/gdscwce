@@ -27,23 +27,29 @@ const Navbar = () => {
 						d='M6 18L18 6M6 6l12 12'
 					/>
 				</svg>
-				{/* Navbar links */}
+				{/* Sidebar links */}
 				<div className='flex  flex-col items-center text-xl justify-center h-full'>
 					<Link
 						href='/'
+						onClick={() => setsidebarOpen(!sidebarOpen)}
 						className=' mb-5 px-3 pb-2 border-b-4 border-gdsc-blue'>
 						Home
 					</Link>
-					<Link href='/teams' className=' mb-5 px-3 pb-2 border-b-4 border-gdsc-red'>
+					<Link
+						href='/teams'
+						onClick={() => setsidebarOpen(!sidebarOpen)}
+						className=' mb-5 px-3 pb-2 border-b-4 border-gdsc-red'>
 						Teams
 					</Link>
 					<Link
 						href='about'
+						onClick={() => setsidebarOpen(!sidebarOpen)}
 						className=' mb-5 px-3 pb-2 border-b-4 border-gdsc-yellow'>
 						About us
 					</Link>
 					<Link
 						href='contact'
+						onClick={() => setsidebarOpen(!sidebarOpen)}
 						className=' px-3 pb-2 mx-4 border-b-4 border-gdsc-green'>
 						Contact us
 					</Link>
@@ -51,7 +57,15 @@ const Navbar = () => {
 			</div>
 
 			{/* GDSC Logo  */}
-			<Link className='w-48 sm:w-1/4 h-full object-contain' href='/'><Image src={logo} className=' h-full object-contain' /></Link>
+			<Link className='w-48 sm:w-1/4 h-full object-contain' href='/'>
+				<Image
+					alt='GDSC'
+					loading='eager' // loads the image immediately
+					priority={true} // Should be loaded before other images
+					src={logo}
+					className=' h-full object-contain'
+				/>
+			</Link>
 			{/* hamburger icon */}
 			{/* Hides on tablet screen and above */}
 			<svg

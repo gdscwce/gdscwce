@@ -1,10 +1,10 @@
 import React from 'react';
+
 import logo from '../../public/assets/logo.png';
 import Image from 'next/image';
 import Link from 'next/link';
-import { SocialLinks, FooterLinks } from '../../data/FooterLinks';
 // footer links
-
+import { SocialLinks, FooterLinks } from '../../data/FooterLinks';
 const Footer = () => {
 	return (
 		<div className='md:h-50vh relative  shadow-footer border w-full'>
@@ -12,6 +12,7 @@ const Footer = () => {
 				<div className='GDSC-details px-5 flex flex-col space-y-3'>
 					<div className='GDSC-logo  '>
 						<Image
+							alt='GDSC'
 							className='w-16 h-12 sm:w-20 sm:h-16 lg:w-28 lg:h-20 object-cover '
 							src={logo}
 						/>
@@ -37,7 +38,7 @@ const Footer = () => {
 							{SocialLinks.map((link, index) => {
 								return (
 									<Link target='_blank' href={link.link} key={index}>
-										<Image className='w-6 h-6' src={link.icon} />
+										<Image alt='GDSC' className='w-6 h-6' src={link.icon} />
 									</Link>
 								);
 							})}
@@ -47,14 +48,14 @@ const Footer = () => {
 				<div className='quick-links h-52 md:h-60 flex items-end space-x-20'>
 					{FooterLinks.map((Link, index) => {
 						return (
-							<div className='link-section'>
+							<div key={index} className='link-section'>
 								<div className={`${Link.title}-heading text-lg font-bold pb-2`}>
 									{Link.title}
 								</div>
 								<div className='links flex flex-col items-center  space-y-3'>
 									{Link.links.map((link, index) => {
 										return (
-											<a  key={link.name} target='_blank' href={link.url}>
+											<a aria-label={link.url} key={link.name} target='_blank' href={link.url}>
 												{link.name}
 											</a>
 										);

@@ -1,9 +1,16 @@
-import React from 'react'
-
+import React from 'react';
+import Teams from '../components/Teams';
+import { NextSeo } from 'next-seo';
 const teams = () => {
-  return (
-    <div>teams</div>
-  )
-}
+	return (
+		<>
+			<NextSeo
+				title='Teams | GDSC WCE'
+				description='A short description goes here.'
+			/>
+			<Teams />
+		</>
+	);
+};
 
-export default teams
+export default teams;
