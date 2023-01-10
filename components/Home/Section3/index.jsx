@@ -1,6 +1,9 @@
 import React from 'react';
 import hero from '../../../public/assets/hero3_v2.png';
 import Image from 'next/image';
+import imageLoader from '../../../loader';
+
+imageLoader
 
 const Section3 = () => {
 	return (
@@ -13,7 +16,7 @@ const Section3 = () => {
 				</div>
 				<div className='connect-container  flex flex-col lg:flex-row    items-center  '>
 					<div className='connect-image-container order-2 lg:order-1 lg:w-3/5'>
-						<Image alt='GDSC' className='connect-image  h-full' src={hero} />
+						<Image loader={imageLoader} alt='GDSC' className='connect-image  h-full' src={hero} />
 					</div>
 					<div className='connect-form w-full  lg:w-2/5 order-1 lg:order-2 flex flex-col space-y-3 p-3 sm:px-5 md:px-7  xl:px-12 '>
 						<div className='connect-head font-bold tracking-wide text-xl mb-2 lg:mb-0'>

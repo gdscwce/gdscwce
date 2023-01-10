@@ -1,6 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import team_background from '../../../public/assets/team_background.jpg';
+import imageLoader from '../../../loader';
+
 const TeamsBackground = () => {
 	return (
 		<div className='teams-bg border h-64 relative'>

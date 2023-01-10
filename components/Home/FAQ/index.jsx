@@ -1,4 +1,4 @@
-import {  useState } from 'react';
+import { useState } from 'react';
 import {
 	Accordion,
 	AccordionHeader,
@@ -6,14 +6,15 @@ import {
 } from '@material-tailwind/react';
 
 import Image from 'next/image';
+
 import tick from '../../../public/icons/tick.png';
+import imageLoader from '../../../loader';
 function Icon({ id, open }) {
 	return (
 		<svg
 			xmlns='http://www.w3.org/2000/svg'
-			className={`${
-				id === open ? 'rotate-180' : ''
-			} h-5 w-5 transition-transform`}
+			className={`${id === open ? 'rotate-180' : ''
+				} h-5 w-5 transition-transform`}
 			fill='none'
 			viewBox='0 0 24 24'
 			stroke='currentColor'
@@ -58,21 +59,21 @@ const FAQ = () => {
 							GDSC provides the community with the opportunity to:
 							<ul className=' sm:pl-3 md:pl-5 list-disc space-y-2 pt-3 '>
 								<li className='flex items-center space-x-2'>
-									<Image alt='GDSC' className='w-4 h-4' src={tick} />
+									<Image loader={imageLoader} alt='GDSC' className='w-4 h-4' src={tick} />
 									<span>
 										Growing their knowledge of developer technologies and more
 										through peer to peer workshops and events.
 									</span>
 								</li>
 								<li className='flex items-center space-x-2'>
-									<Image alt='GDSC' className='w-4 h-4' src={tick} />
+									<Image loader={imageLoader} alt='GDSC' className='w-4 h-4' src={tick} />
 									<span>
 										Gaining relevant experience by solving problems for local
 										organizations with technology-based solutions.
 									</span>
 								</li>
 								<li className='flex items-center space-x-2'>
-									<Image alt='GDSC' className='w-4 h-4' src={tick} />
+									<Image loader={imageLoader} alt='GDSC' className='w-4 h-4' src={tick} />
 									<span>
 										Showcaseing their prototypes and solutions to the local
 										community and industry leaders.

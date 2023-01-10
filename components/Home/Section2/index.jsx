@@ -1,6 +1,9 @@
 import React from 'react';
 import hero from '../../../public/assets/hero2.png';
 import Image from 'next/image';
+import imageLoader from '../../../loader';
+
+
 
 const Section2 = () => {
 	return (
@@ -24,7 +27,7 @@ const Section2 = () => {
 					</p>
 				</div>
 				<div className='hero-image-container  hidden md:flex   justify-center p-3 sm:p-6 md:p-12'>
-					<Image alt='GDSC' className='hero-image  h-full' src={hero} />
+					<Image loader={imageLoader} alt='GDSC' className='hero-image  h-full' src={hero} />
 				</div>
 			</div>
 		</div>

@@ -2,8 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    loader: 'akamai',
-    path: '',
+    loader: 'custom',
+    loaderFile:'./loader.js',
     remotePatterns: [
       {
         protocol: 'https',

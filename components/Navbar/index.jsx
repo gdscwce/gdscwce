@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import logo from '../../public/assets/gdsc banner.png';
+import imageLoader from '../../loader';
+
 
 const Navbar = () => {
 	const [sidebarOpen, setsidebarOpen] = useState(false);
@@ -9,9 +11,8 @@ const Navbar = () => {
 		<div className='border-gray-400 h-16 sm:h-20 flex justify-between items-center px-5 '>
 			{/* Sidebar overlay */}
 			<div
-				className={`bg-white bg-opacity-75 w-full h-full fixed top-0 left-0 z-10 ${
-					!sidebarOpen && 'hidden'
-				}`}>
+				className={`bg-white bg-opacity-75 w-full h-full fixed top-0 left-0 z-10 ${!sidebarOpen && 'hidden'
+					}`}>
 				{/* Close icon */}
 				<svg
 					xmlns='http://www.w3.org/2000/svg'
@@ -75,9 +76,8 @@ const Navbar = () => {
 				strokeWidth={1.5}
 				stroke='currentColor'
 				onClick={() => setsidebarOpen(!sidebarOpen)}
-				className={`w-6 h-6 sm:hidden cursor-pointer ${
-					sidebarOpen && 'hidden'
-				}`}>
+				className={`w-6 h-6 sm:hidden cursor-pointer ${sidebarOpen && 'hidden'
+					}`}>
 				<path
 					strokeLinecap='round'
 					strokeLinejoin='round'
