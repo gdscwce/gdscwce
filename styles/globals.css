@@ -93,11 +93,11 @@ body {
 body {
 	/* color: rgb(var(--foreground-rgb)); */
 }
-html {
+* {
 	-ms-overflow-style: none; /* Internet Explorer 10+ */
 	scrollbar-width: none; /* Firefox */
 }
-html::-webkit-scrollbar {
+*::-webkit-scrollbar {
 	display: none; /* Safari and Chrome */
 }
 

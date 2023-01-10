@@ -1,14 +1,15 @@
 import React from 'react';
+import { Link } from 'next/link';
 
 const TeamBriefCard = ({ data: { Name, Lead, hasAssociates, Associates, memberCount }, color, year }) => {
 
 	return (
-		<div className={`team-card  mb-8  lg:mb-16 w-80 bg-white cursor-pointer`}>
-			<div className={`team-card-head flex justify-between items-center shadow ${color % 4 == 0 ? 'shadow-gdsc-blue' : color % 4 == 1 ? 'shadow-gdsc-red' : color % 4 == 2 ? 'shadow-gdsc-green' : 'shadow-gdsc-yellow'} p-4 rounded-lg`}>
+		<a href='#core' className={`team-card  mb-8  lg:mb-16 w-80 bg-white cursor-pointer shadow ${color % 4 == 0 ? 'shadow-gdsc-blue' : color % 4 == 1 ? 'shadow-gdsc-red' : color % 4 == 2 ? 'shadow-gdsc-green' : 'shadow-gdsc-yellow'} p-4 rounded-lg`}>
+			<div className={`team-card-head flex justify-between items-center   `}>
 				<span className=' lg:text-lg font-semibold '>{Name} </span>
 				<span className='text-sm font-semibold'>{year}</span>
 			</div>
-			<div className='team-card-body mt-1 p-4'>
+			<div className='team-card-body mt-4'>
 				<div className='team-card-body-head flex justify-between items-center'>
 					<span className='text-sm font-semibold'>Team Lead</span>
 					<span className='text-sm font-semibold'>{Lead}</span>
@@ -33,7 +34,7 @@ const TeamBriefCard = ({ data: { Name, Lead, hasAssociates, Associates, memberCo
 
 				</div>
 			</div>
-		</div>
+		</a>
 	);
 };
 

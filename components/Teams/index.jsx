@@ -3,6 +3,7 @@ import AllTeamsBrief from './AllTeamsBrief';
 import TeamsBackground from './Background';
 import Dropdown from './Dropdown';
 import { allTeamsBrief } from '../../data/AllTeamsOverview';
+import AllTeams from './AllTeams/index';
 const Teams = () => {
 	const [open, setopen] = useState(false);
 	const [current, setcurrent] = useState('2022-23');
@@ -17,11 +18,12 @@ const Teams = () => {
 					<span className='text-3xl font-semibold'>Teams</span>
 					{/* Year select dropdown */}
 					<Dropdown
-					open={open} setopen={(e) => setopen(e)} current={current} setcurrent={e => setcurrent(e)} years={years}
+						open={open} setopen={(e) => setopen(e)} current={current} setcurrent={e => setcurrent(e)} years={years}
 					/>
 				</div>
 				{/* Teams Brief section  */}
 				<AllTeamsBrief allTeamsBrief={AllTeamsOverview} year={current} />
+				<AllTeams />
 			</div>
 			{/* Teams section  */}
 		</div> // container

@@ -3,6 +3,7 @@ import React from 'react';
 import logo from '../../public/assets/logo.png';
 import Image from 'next/image';
 import Link from 'next/link';
+import { imageLoader } from '../../loader';
 // footer links
 import { SocialLinks, FooterLinks } from '../../data/FooterLinks';
 const Footer = () => {
@@ -38,7 +39,7 @@ const Footer = () => {
 							{SocialLinks.map((link, index) => {
 								return (
 									<Link target='_blank' href={link.link} key={index}>
-										<Image alt='GDSC' className='w-6 h-6' src={link.icon} />
+										<Image loader={imageLoader} alt='GDSC' className='w-6 h-6' src={link.icon} />
 									</Link>
 								);
 							})}

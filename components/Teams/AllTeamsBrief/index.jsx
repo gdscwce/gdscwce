@@ -4,12 +4,12 @@ import TeamBriefCard from './TeamBriefCard';
 const AllTeamsBrief = ({allTeamsBrief,year}) => {
 	
 	return (
-		<div className=''>
+		<div className='mt-10 md:mt-0'>
 			{/* Core team */}
 			<div className='flex justify-center'>				
 					<TeamBriefCard data={allTeamsBrief[0]} color={0} year={year} />
 			</div>
-			<div className='teams-grid flex justify-around items-center flex-wrap gap-3'>
+			<div className='teams-grid flex justify-evenly items-center flex-wrap gap-3'>
 				{/* Teams grid  */}
 				{allTeamsBrief.map((team,index)=>{
 					if(team.Name=="Core" || team.Name=="Technical Team")
