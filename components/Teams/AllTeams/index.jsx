@@ -1,40 +1,79 @@
 import React from 'react'
-import Image from 'next/image';
-import github from '../../../public/icons/github.png'
-import ig from '../../../public/icons/instagram.png'
-import linkedin from '../../../public/icons/linkedin.png'
-import imageLoader from '../../../loader';
+import Team from './Team'
 
 const AllTeams = () => {
+    const allTeams = [
+        {
+            "TeamName": "Core",
+            "TeamMembers": [
+                {
+                    name: "Nirmit Chatto",
+                    profileUrl: 'https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/nirmit_chattoo_9cCKGK8.jpeg',
+                    post: "Lead",
+                    ig: 'https://www.instagram.com/nehal.jsx/',
+                    github: 'https://github.com/coderNehal',
+                    linkedin: "https://www.linkedin.com/in/nehal-u-909114220/"
+                },
+                {
+                    name: "Sapna Khedkar",
+                    profileUrl: 'https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/sapana_khedkar_lMBrTMr.jpg',
+                    post: "Creative and Social Lead",
+                    ig: 'https://www.instagram.com/nehal.jsx/',
+                    github: 'https://github.com/coderNehal',
+                    linkedin: "https://www.linkedin.com/in/nehal-u-909114220/"
+                },
+                {
+                    name: "Nehal Ughade",
+                    profileUrl: 'https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/nehal_ughade_Irt34x3.jpg',
+                    post: "Management Lead",
+                    ig: 'https://www.instagram.com/nehal.jsx/',
+                    github: 'https://github.com/coderNehal',
+                    linkedin: "https://www.linkedin.com/in/nehal-u-909114220/"
+                },
+                {
+                    name: "Aman Agarwal",
+                    profileUrl: 'https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/aman_agrawal_pYJjVt5.jpg',
+                    post: "E-CELL Lead",
+                    ig: 'https://www.instagram.com/nehal.jsx/',
+                    github: 'https://github.com/coderNehal',
+                    linkedin: "https://www.linkedin.com/in/nehal-u-909114220/"
+                },
+                {
+                    name: "Neha Gaddam",
+                    profileUrl: 'https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/neha_gaddam_kB5avcS.jpg',
+                    post: "Technical Associate Lead",
+                    ig: 'https://www.instagram.com/nehal.jsx/',
+                    github: 'https://github.com/coderNehal',
+                    linkedin: "https://www.linkedin.com/in/nehal-u-909114220/"
+                },
+                {
+                    name: "Daulatrao Patil",
+                    profileUrl: 'https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/daulatrao_patil_wCp1NoN.jpg',
+                    post: "Technical Lead",
+                    ig: 'https://www.instagram.com/nehal.jsx/',
+                    github: 'https://github.com/coderNehal',
+                    linkedin: "https://www.linkedin.com/in/nehal-u-909114220/"
+                },
+                {
+                    name: "Chetna Patil",
+                    profileUrl: 'https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/chetana_patil_mdomMlL.jpg',
+                    post: "Technical Associate Lead",
+                    ig: 'https://www.instagram.com/nehal.jsx/',
+                    github: 'https://github.com/coderNehal',
+                    linkedin: "https://www.linkedin.com/in/nehal-u-909114220/"
+                },
 
+            ]
+        },
+    ]
     return (
-        <div id='core' className='Allteams-container'>
-            <div className='Allteams-section'>
-                <div className='Allteams-head text-center'>
-                    <span className='text-3xl font-semibold'>CORE TEAM</span>
-                </div>
-                <div className='Allteams-body flex'>
-                    <div className="TeamCard border w-48 p-5 flex flex-col h-80 space-y-5">
-                        <div className="TeamCard-image-container border h-1/2 rounded-full overflow-hidden">
-                            <Image loader={imageLoader} src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/nehal_ughade_Irt34x3.jpg" className='w-full h-full object-cover' alt="Team Lead" width="100" height="100" />
-                        </div>
-                        <div className="TeamCard-body">
-                            <div className="TeamCard-name">
-                                Nehal Ughade
-                            </div>
-                            <div className="TeamCard-name">
-                                Lead
-                            </div>
-                            <div className="TeamCard-social-links flex justify-between">
-                                <Image loader={imageLoader} className='w-6 h-6' src={github}></Image>
-                                <Image loader={imageLoader} className='w-6 h-6' src={ig}></Image>
-                                <Image loader={imageLoader} className='w-6 h-6' src={linkedin}></Image>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <>
+            {allTeams.map((team, idx) => {
+                return <Team data={team} />
+            })
+            }
+        </>
+
     )
 }
 

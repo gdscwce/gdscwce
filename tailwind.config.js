@@ -7,16 +7,16 @@ module.exports = {
   theme: {
     extend: {
       // boxShadowColor: {
-      //   'gdsc-gradient': 'linear-gradient(90deg, #4285F4 0%, #DB4437 20%, #F4B400 40%, #0F9D58 60%, #4285F4 80%)',
-      //   'gdsc-gradient-reverse': 'linear-gradient(90deg, #4285F4 0%, #0F9D58 20%, #F4B400 40%, #DB4437 60%, #4285F4 80%)',
+      //   'gdsc-gradient': 'linear-gradient(90deg, ##4285f4 0%, #db4437 20%, #f4b400 40%, #0F9D58 60%, ##4285f4 80%)',
+      //   'gdsc-gradient-reverse': 'linear-gradient(90deg, ##4285f4 0%, #0F9D58 20%, #f4b400 40%, #db4437 60%, ##4285f4 80%)',
       // },
       colors: {
-        'gdsc-blue': '#4285F4',
-        'gdsc-red': '#DB4437',
-        'gdsc-yellow': '#F4B400',
-        'gdsc-green': '#0F9D58',
-        'gdsc-gradient': 'linear-gradient(90deg, #4285F4 0%, #DB4437 20%, #F4B400 40%, #0F9D58 60%, #4285F4 80%)',
-        'gdsc-gradient-reverse': 'linear-gradient(90deg, #4285F4 0%, #0F9D58 20%, #F4B400 40%, #DB4437 60%, #4285F4 80%)',
+        'gdsc-blue': '#4285f4',
+        'gdsc-red': '#db4437',
+        'gdsc-yellow': '#f4b400',
+        'gdsc-green': '#0f9d58',
+        'gdsc-gradient': 'linear-gradient(90deg, ##4285f4 0%, #db4437 20%, #f4b400 40%, #0F9D58 60%, ##4285f4 80%)',
+        'gdsc-gradient-reverse': 'linear-gradient(90deg, ##4285f4 0%, #0F9D58 20%, #f4b400 40%, #db4437 60%, ##4285f4 80%)',
 
       },
       fontFamily: {
