@@ -30,8 +30,9 @@ module.exports = {
         '3.5': '0.775rem',
       },
       height: {
-        '80vh': 'calc(100vh - 5rem)',
-        '50vh': 'calc(100vh - 22rem)',
+        '80vh': '41',
+        '50vh': '23rem',
+        '45vh': '21.5rem',
       }
     },
   },

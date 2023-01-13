@@ -9,19 +9,19 @@ const FooterLinks = [
         links: [
             {
                 name: 'Home',
-                url: '#',
+                url: '/',
             },
             {
                 name: 'Events',
-                url: '#',
+                url: '/events',
             },
             {
                 name: 'Projects',
-                url: '#',
+                url: '/projects',
             },
             {
                 name: 'Contact Us',
-                url: '#',
+                url: 'contact',
             },
         ],
     },
@@ -30,19 +30,19 @@ const FooterLinks = [
         links: [
             {
                 name: 'Home',
-                url: '#',
+                url: '/',
             },
             {
                 name: 'Events',
-                url: '#',
+                url: '/events',
             },
             {
                 name: 'Projects',
-                url: '#',
+                url: '/projects',
             },
             {
                 name: 'Contact Us',
-                url: '#',
+                url: 'contact',
             },
         ],
     },

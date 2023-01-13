@@ -1,11 +1,32 @@
+import { NextSeo } from 'next-seo'
 import React from 'react'
+import About from '../components/About';
 
-const About = () => {
+const about = () => {
   return (
-    <div className='h-screen'>
-        <h1>About</h1>
-    </div>
+    <>
+      <NextSeo
+        title='About | GDSC WCE'
+        description='About GDSC WCE'
+        canonical='https://gdscwce.com/about'
+        openGraph={{
+          url: 'https://gdscwce.com/about',
+          title: 'About | GDSC WCE',
+          description: 'About GDSC WCE',
+          site_name: 'GDSC WCE',
+        }}
+        additionalMetaTags={[
+          {
+            name: 'keywords',
+            content: 'GDSC WCE',
+          },
+        ]}
+
+
+      ></NextSeo>
+      <About />
+    </>
   )
 }
 
-export default About
+export default about;
