@@ -12,7 +12,7 @@ const Teams = () => {
 	return (
 		<div className='teams-container min-h-screen'>
 			<TeamsBackground />
-			<div className='teams-section p-3  sm:px-8 sm:py-5 md:px-16 md:my-12 '> {/* Teams section  */}
+			<div className='teams-section px-8 py-5 md:px-16 md:my-12 '> {/* Teams section  */}
 				<div className='team-head flex justify-between py-5 '> {/* Teams Brief section  */}
 					{/* Teams page head  */}
 					<span className='text-3xl font-semibold'>Teams</span>

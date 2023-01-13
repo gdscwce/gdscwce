@@ -8,7 +8,7 @@ import { imageLoader } from '../../loader';
 import { SocialLinks, FooterLinks } from '../../data/FooterLinks';
 const Footer = () => {
 	return (
-		<div className='md:h-50vh relative  shadow-footer border w-full'>
+		<div className='md:h-50vh  relative shadow-footer border w-full'>
 			<div className='footer-container py-3 md:py-12  flex justify-around flex-wrap items-center'>
 				<div className='GDSC-details px-5 flex flex-col space-y-3'>
 					<div className='GDSC-logo  '>
@@ -67,7 +67,7 @@ const Footer = () => {
 					})}
 				</div>
 			</div>
-			<div className='trademark text-xs  w-full mb-4 mt-6 sm:mt-4 text-center '>
+			<div className='trademark text-xs  w-full pt-5 pb-3 sm:py-0   text-center '>
 				© 2022 GDSC WCE. All Rights Reserved
 			</div>
 		</div>

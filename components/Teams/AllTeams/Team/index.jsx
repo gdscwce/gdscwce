@@ -11,7 +11,7 @@ const Team = ({data:{TeamName,TeamMembers}}) => {
                 </div>
                 <div className='Allteams-body py-12  flex md:px-24 flex-wrap justify-center'>
                     {TeamMembers.map((ele, idx) => {
-                        return <TeamMember key={idx} memeberInfo={ele} color={'color' + idx} />
+                        return <TeamMember key={idx} memeberInfo={ele} colorIdx={idx} color={'color' + idx} />
                     })}
                     {/* <div className="TeamCard shadow border ease-in hover:shadow-xl transition-all duration-400 rounded-xl w-56 flex flex-col items-center justify-center h-80">
                         <div className="TeamCard-image-container border w-40 h-40 rounded-full overflow-hidden mb-5">

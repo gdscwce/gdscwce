@@ -15,7 +15,8 @@
     "next": "13.1.1",
     "next-seo": "^5.15.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "scroll-to-element": "^2.0.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
