@@ -2,9 +2,9 @@ import React from 'react';
 import Image from 'next/image';
 import imageLoader from '../../loader';
 
-const Background = ({ img, children }) => {
+const Background = ({ img, children,border }) => {
 	return (
-		<div style={{ height: '16rem' }} className='teams-bg border h-64 relative'>
+		<div style={{ height: '18rem' }} className={`teams-bg ${border && 'border'} h-64 relative`}>
 			<Image
 				alt='GDSC'
 				loading='eager'

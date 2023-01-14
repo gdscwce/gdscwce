@@ -43,15 +43,21 @@ const Navbar = () => {
 						Teams
 					</Link>
 					<Link
-						href='about'
+						href='/projects'
 						onClick={() => setsidebarOpen(!sidebarOpen)}
 						className=' mb-5 px-3 pb-2 border-b-4 border-gdsc-yellow'>
+						Projects
+					</Link>
+					<Link
+						href='about'
+						onClick={() => setsidebarOpen(!sidebarOpen)}
+						className=' mb-5 px-3 pb-2 border-b-4 border-gdsc-green'>
 						About us
 					</Link>
 					<Link
 						href='contact'
 						onClick={() => setsidebarOpen(!sidebarOpen)}
-						className=' px-3 pb-2 mx-4 border-b-4 border-gdsc-green'>
+						className=' px-3 pb-2 mx-4 border-b-4 border-gdsc-blue'>
 						Contact us
 					</Link>
 				</div>
@@ -91,6 +97,9 @@ const Navbar = () => {
 				</Link>
 				<Link href='teams' className='mr-5'>
 					Teams
+				</Link>
+				<Link href='projects' className='mr-5'>
+					Projects
 				</Link>
 				<Link href='about' className='mr-5'>
 					About us

@@ -30,7 +30,7 @@ const Domains = () => {
         },
         {
             name: 'Entrepreneurship-cell',
-            description: "E-cell club is about mentoring students for those who have interest in entrepreneurship, startups and creates an environment so that he/she can develop the attitude and skills in this domain. Our club provides support to all the budding entrepreneurs and helps shape their Ideas and convert them into real world business opportunities.",
+            description: "E-cell is about mentoring students for those who have interest in entrepreneurship, startups and creates an environment so that he/she can develop the attitude and skills in this domain. Our club provides support to all the budding entrepreneurs and helps shape their Ideas and convert them into real world business opportunities.",
             img: ecell,
             color: 'text-gdsc-yellow',
             isGray: false

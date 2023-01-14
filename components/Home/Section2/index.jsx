@@ -1,5 +1,5 @@
 import React from 'react';
-import hero from '../../../public/assets/hero2.png';
+import hero from '../../../public/assets/hero2.1.png';
 import Image from 'next/image';
 import imageLoader from '../../../loader';
 
@@ -26,7 +26,7 @@ const Section2 = () => {
 						ducimus tempora reprehenderit nisi minus?
 					</p>
 				</div>
-				<div className='hero-image-container  hidden md:flex   justify-center p-3 sm:p-6 md:p-12'>
+				<div className='hero-image-container  hidden md:flex   justify-center p-3 sm:p-6 md:p-16'>
 					<Image loader={imageLoader} alt='GDSC' className='hero-image  h-full' src={hero} />
 				</div>
 			</div>

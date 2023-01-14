@@ -13,7 +13,7 @@ const Teams = () => {
 	const [AllTeamsOverview, setAllTeamsOverview] = useState(allTeamsBrief);
 	return (
 		<div className='teams-container min-h-screen'>
-			<Background img={team_background} >
+			<Background img={team_background} border={true} >
 				<div className='capitalize text-lg md:text-xl text-transparent   bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 '>
 					Meet the team
 				</div>
