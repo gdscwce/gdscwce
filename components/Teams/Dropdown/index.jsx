@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Dropdown = ({setopen,open,current,setcurrent,years}) => {
-    console.log(open)
+const Dropdown = ({ setopen, open, current, setcurrent, data, custom}) => { // custom is for projects dropdown
+    // console.log(open)
     return (
-        <div className="relative">{/* Drop down to select year  */}
-            
+        <div className="relative ">{/* Drop down to select year  */}
+
             <button
-                className='text-gray-600 border-b-2   font-medium text-sm px-4 py-2.5 text-center inline-flex items-center'
+                className={`text-gray-600 border-b-2 flex justify-center capitalize  ${custom && 'w-full border'}  font-medium text-sm px-4 py-2.5 text-center inline-flex items-center`}
                 type='button'
                 onClick={(e) => setopen((prev) => !prev)}>
                 {current}
@@ -28,10 +28,10 @@ const Dropdown = ({setopen,open,current,setcurrent,years}) => {
             {/* <!-- Dropdown menu --> */}
             <div
                 className={` ${open ? 'block' : 'hidden'
-                    } bg-white absolute top-8 left-3 text-base z-50 list-none divide-y divide-gray-100 rounded shadow  my-4`}
+                    } bg-white absolute top-8 ${!custom && 'left-3'} text-base z-50 list-none divide-y divide-gray-100 rounded shadow  my-4 ${custom && 'w-full'}`}
                 id='dropdown'>
                 <ul className='py-1' aria-labelledby='dropdown'>
-                    {years.map((ele) => {
+                    {data.map((ele) => {
                         return (
                             <li
                                 key={ele}
@@ -43,7 +43,7 @@ const Dropdown = ({setopen,open,current,setcurrent,years}) => {
                                 }}>
                                 <a
                                     aria-label='2022-23'
-                                    className='text-sm py-2 px-4 block whitespace-nowrap'
+                                    className={`text-sm py-2 px-4 block whitespace-nowrap ${ele=='ai/ml'?'uppercase':'capitalize'}`}
                                     href='#pablo'>
                                     {ele}
                                 </a>
@@ -54,8 +54,8 @@ const Dropdown = ({setopen,open,current,setcurrent,years}) => {
             </div>{' '}
             {/* <!-- Dropdown menu --> */}
         </div> // Drop down ends
-    
-  )
+
+    )
 }
 
 export default Dropdown

@@ -28,7 +28,7 @@ const Teams = () => {
 					<span className='text-3xl font-semibold'>Teams</span>
 					{/* Year select dropdown */}
 					<Dropdown
-						open={open} setopen={(e) => setopen(e)} current={current} setcurrent={e => setcurrent(e)} years={years}
+						open={open} setopen={(e) => setopen(e)} current={current} setcurrent={e => setcurrent(e)} data={years}
 					/>
 				</div>
 				{/* Teams Brief section  */}
