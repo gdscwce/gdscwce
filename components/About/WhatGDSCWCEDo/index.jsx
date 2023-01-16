@@ -11,7 +11,7 @@ const WhatGDSCWCEDo = () => {
                 We at <span className="font-bold">DSC-WCE</span> are a passionate group of people who work towards bringing a change in the ecosystem of development around the campus. We want to create a healthy environment for the budding developers to exploring solutions to real life problems and promote the <span className="font-bold">developer culture.</span>
             </div>
             <div className='whatgdscwcedo-img-container sm:w-2/3 md:w-1/2'>
-                <Image className='w-full h-full' src={whatgdscwcedo} loader={imageLoader} />
+                <Image className='w-full h-full' alt='GDSC-img' src={whatgdscwcedo} loader={imageLoader} />
             </div>
 
         </div>

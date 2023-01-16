@@ -15,7 +15,7 @@ const Domain = ({ data:{name,description,img,isGray,color} }) => {
             </div>
             <div className={`domain-img w-1/2 hidden md:flex ${isGray ? 'order-2' : 'order-1'} justify-${isGray ? 'start' : 'end'} px-16`}>
                 <div className='img-container py-8'>
-                    <Image className='w-full h-full ' loader={imageLoader} src={img} />
+                    <Image className='w-full h-full ' alt='GDSC-img' loader={imageLoader} src={img} />
                 </div>
             </div>
         </div>
