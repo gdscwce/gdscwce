@@ -12,39 +12,41 @@ const FooterLinks = [
                 url: '/',
             },
             {
-                name: 'Events',
-                url: '/events',
+                name: 'Teams',
+                url: '/teams',
             },
             {
                 name: 'Projects',
                 url: '/projects',
             },
             {
-                name: 'Contact Us',
-                url: 'contact',
+                name: 'About Us',
+                url: '/about',
             },
         ],
+        target:'_self'
     },
     {
-        title: 'Quick Links',
+        title: 'External Links',
         links: [
             {
-                name: 'Home',
-                url: '/',
+                name: 'DSC-WCE',
+                url: 'https://gdsc.community.dev/walchand-college-of-engineering-sangli/',
             },
             {
                 name: 'Events',
-                url: '/events',
+                url: 'https://gdsc.community.dev/walchand-college-of-engineering-sangli/#upcoming',
             },
             {
-                name: 'Projects',
-                url: '/projects',
+                name: 'Privacy',
+                url: 'https://policies.google.com/privacy',
             },
             {
-                name: 'Contact Us',
-                url: 'contact',
+                name: 'Terms',
+                url: 'https://policies.google.com/terms',
             },
         ],
+        target:'_blank'
     },
 ];
 

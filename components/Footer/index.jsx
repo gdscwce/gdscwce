@@ -11,17 +11,17 @@ const Footer = () => {
 		<div className='md:h-50vh  relative shadow-footer border w-full'>
 			<div className='footer-container py-3 md:py-12  flex justify-around flex-wrap items-center'>
 				<div className='GDSC-details px-5 flex flex-col space-y-3'>
-					<div className='GDSC-logo  '>
+					<Link href='/' className='GDSC-logo  '>
 						<Image
 							alt='GDSC'
 							className='w-16 h-12 sm:w-20 sm:h-16 lg:w-28 lg:h-20 object-cover '
 							src={logo}
 						/>
-					</div>
+					</Link>
 					<div className='GDSC-Powered-by font-bold text-lg'>
 						GDSC-WCE powered by Google Developer Students club
 					</div>
-					<div className='WCE-address '>
+					<Link href='https://www.google.com/maps/place/Walchand+College+of+Engineering/@16.8457387,74.5992688,17z/data=!3m1!4b1!4m5!3m4!1s0x3bc1237f52c65db5:0xa3535676176ded0a!8m2!3d16.8457387!4d74.6014575' target='_blank' className='WCE-address '>
 						<span className='capitalize line-1'>
 							Walchand college of engineering,
 						</span>
@@ -32,7 +32,7 @@ const Footer = () => {
 						<br />
 						<span className='capitalize line-3'>India.</span>
 						<br />
-					</div>
+					</Link>
 					<div className='social flex space-x-3'>
 						<span className='text-lg font-bold'>Follow us on </span>
 						<div className='social-links flex space-x-3'>
@@ -56,7 +56,7 @@ const Footer = () => {
 								<div className='links flex flex-col items-center  space-y-3'>
 									{Link.links.map((link, index) => {
 										return (
-											<a aria-label={link.url} key={link.name} target='_blank' href={link.url}>
+											<a className='hover:text-gdsc-blue' aria-label={link.url} key={link.name} target={Link.target} href={link.url}>
 												{link.name}
 											</a>
 										);

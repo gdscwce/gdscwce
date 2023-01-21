@@ -18,8 +18,7 @@ const Teams = () => {
 					Meet the team
 				</div>
 				<div className='text-lg md:text-2xl font-bold text-center  md:w-3/4 lg:w-1/2'>
-					Our team is made up of passionate individuals who are dedicated to
-					creating a positive community
+				Our team is made up of enthusiastic people that are committed to building a great community.
 				</div>
 			</Background>
 			<div className='teams-section px-8 py-5 md:px-16 md:my-12 '> {/* Teams section  */}

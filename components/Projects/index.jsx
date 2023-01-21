@@ -16,8 +16,8 @@ const Projects = () => {
                     Projects
                 </div>
                 <div className='text-base md:text-xl text-center text-white px-2 md:w-3/4 lg:w-1/2'>
-                    Our team is made up of passionate individuals who are dedicated to
-                    creating a positive community
+                Want to Contribute in Open Source Projects? <br />
+                Here are some!
                 </div>
             </Background>
             <div className='projects-section mb-10'> {/* projects section  */}

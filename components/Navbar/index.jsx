@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import logo from '../../public/assets/gdsc banner.png';
 import imageLoader from '../../loader';
-
+import scrollToElement from 'scroll-to-element'
 
 const Navbar = () => {
 	const [sidebarOpen, setsidebarOpen] = useState(false);
@@ -54,12 +54,17 @@ const Navbar = () => {
 						className=' mb-5 px-3 pb-2 border-b-4 border-gdsc-green'>
 						About us
 					</Link>
-					<Link
-						href='contact'
-						onClick={() => setsidebarOpen(!sidebarOpen)}
-						className=' px-3 pb-2 mx-4 border-b-4 border-gdsc-blue'>
+					<div
+						onClick={() => {setsidebarOpen(!sidebarOpen)
+							scrollToElement(`#contactUs`, {
+								offset: -20,
+								ease: '',
+								duration: 0
+							})
+						}}
+						className=' px-3 pb-2 cursor-pointer mx-4 border-b-4 border-gdsc-blue'>
 						Contact us
-					</Link>
+					</div>
 				</div>
 			</div>
 
@@ -67,6 +72,7 @@ const Navbar = () => {
 			<Link className='w-48 sm:w-1/4 h-full object-contain' href='/'>
 				<Image
 					alt='GDSC'
+					loader={imageLoader}
 					loading='eager' // loads the image immediately
 					priority={true} // Should be loaded before other images
 					src={logo}
@@ -104,11 +110,15 @@ const Navbar = () => {
 				<Link href='about' className='mr-5'>
 					About us
 				</Link>
-				<Link
-					href='contact'
-					className='bg-gdsc-blue drop-shadow-lg text-white px-6 py-3.5 mx-4  rounded-full'>
+				<div
+					onClick={e => scrollToElement(`#contactUs`, {
+						offset: -80,
+						ease: '',
+						duration: 0
+					})}
+					className='bg-gdsc-blue drop-shadow-lg cursor-pointer text-white px-6 py-3.5 mx-4  rounded-full'>
 					Contact us
-				</Link>
+				</div>
 			</div>
 		</div>
 	);

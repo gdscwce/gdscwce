@@ -7,7 +7,7 @@ imageLoader
 
 const Section3 = () => {
 	return (
-		<div className='  lg:h-80vh mt-20 md:mt-10 mb-20 flex  items-center justify-center '>
+		<div id="contactUs" className='  lg:h-80vh mt-20 md:mt-10 mb-20 flex  items-center justify-center '>
 			<div className='hero flex    items-center  flex-col '>
 				<div className='connect text-center flex flex-col flex-nowrap  justify-center items-start space-y-8 px-6 sm:px-12 lg:px-52 mb-8'>
 					<h1 className='connect-title text-4xl font-bold  w-full '>

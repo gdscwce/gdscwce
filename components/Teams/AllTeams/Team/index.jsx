@@ -4,7 +4,7 @@ import TeamMember from './TeamMember'
 
 const Team = ({data:{TeamName,TeamMembers}}) => {
     return (
-        <div id={TeamName} className='Allteams-container'>
+        <div id={TeamName.replace(' ','_')} className='Allteams-container'>
             <div className='Allteams-section'>
                 <div className='Allteams-head text-center pt-5'>
                     <span className='text-3xl font-semibold uppercase'>{TeamName} TEAM</span>

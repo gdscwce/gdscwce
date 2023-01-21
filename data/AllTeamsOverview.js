@@ -7,7 +7,7 @@ const allTeamsBrief = [
         memberCount: 7,
     },
     {
-        Name: "Createive and Social",
+        Name: "Creative and Social",
         Lead: "Sapna Khedkar",
         hasAssociates: false,
         Associates: "",
@@ -32,7 +32,7 @@ const allTeamsBrief = [
         Lead: "Daulatrao Patil",
         hasAssociates: true,
         Associates: ["Neha Gddam", " Chetna Patil"],
-        memberCount: 7,
+        memberCount: 30,
     }
 ]
 

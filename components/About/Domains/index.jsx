@@ -37,7 +37,7 @@ const Domains = () => {
         },
         {
             name: 'Creative Design',
-            description: "Creative thinking shows us that there are many solutions to any problem, and developing your creative thinking skills helps you recognize innovative solutions more quickly. ",
+            description: "Creativity is a natural extension of our enthusiasm, we at GDSC creative team aim at excelling in the creative side of all the work processes involved in successful event workshops and activities throughout the year.",
             img: creative,
             color: 'text-gdsc-blue',
             isGray: true

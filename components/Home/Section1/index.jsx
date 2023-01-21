@@ -9,22 +9,24 @@ const Section1 = () => {
 	return (
 		<div className='h-screen  flex items-center justify-center '>
 			<div className='hero flex mt-20 sm:mt-52   lg:-mt-20 lg:flex-row flex-col'>
-				<div className='hero-text lg:w-1/2  p-3 flex flex-col flex-nowrap  justify-center items-start space-y-8 pr-0 sm:pr-12 md:pr-40'>
+				<div className='hero-text lg:w-1/2  p-3 flex flex-col flex-nowrap  justify-center items-start space-y-5 pr-0 sm:pr-12 md:pr-40'>
+				<div classNames='head-title-container'>
 					<h1 className='hero-title text-4xl font-bold tracking-wide'>
 						Welcome to
 						<br className='sm:hidden' /> GDSC-WCE{' '}
 					</h1>
-					<p className='hero-description  text-gray-500  leading-5'>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
-						commodi veritatis eos, neque quidem eum adipisci eligendi quasi iste
-						voluptate obcaecati eveniet quod reiciendis blanditiis fugiat
-						quibusdam error doloribus! Ducimus quia doloribus perferendis
-						molestias, repudiandae blanditiis laborum reiciendis iusto nesciunt
-						ab hic possimus sed, id, veritatis similique commodi repellendus
-						dignissimos!
+					<div className="subheading mt-3 capitalize">It's welcomed gift to encourage others to achive greatness</div>
+				</div>
+					<p className='hero-description   text-gray-500  leading-5'>
+					
+					Google Developer Students' Club - WCE aims to inculcate the culture of
+					<span className='text-gdsc-blue opacity-75 '> development</span> and solving problems within local communities using technology.
+					Coming together is the <span className='text-gdsc-blue opacity-75'>beginning</span>. Keeping together is a <span className='text-gdsc-blue opacity-75'>progress</span>. Working together 
+					is a Success. 
 					</p>
 					<Link
-						href='#'
+						href='https://gdsc.community.dev/walchand-college-of-engineering-sangli/'
+						target='_blank'
 						className='learn-more bg-gdsc-blue drop-shadow-lg text-white px-6 py-2  rounded-full'>
 						Learn More
 					</Link>

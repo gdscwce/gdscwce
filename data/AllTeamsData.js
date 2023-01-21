@@ -124,7 +124,7 @@ const allTeams = [
         ]
     },
     {
-        "TeamName": "Createive and Social",
+        "TeamName": "Creative and Social",
         "TeamMembers": [
             {
                 name: "Nirmit Chatto",

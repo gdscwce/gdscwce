@@ -4,7 +4,7 @@ import scrollToElement from 'scroll-to-element'
 const TeamBriefCard = ({ data: { Name, Lead, hasAssociates, Associates, memberCount }, color, year }) => {
 
 	const handlleScroll = () => {
-		console.log(Name)
+		
 		scrollToElement(`#${Name}`, {
 			offset: 0,
 			ease: 'out-bounce',
