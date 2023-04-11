@@ -43,8 +43,7 @@ const Dropdown = ({ setopen, open, current, setcurrent, data, custom}) => { // c
                                 }}>
                                 <a
                                     aria-label='2022-23'
-                                    className={`text-sm py-2 px-4 block whitespace-nowrap ${ele=='ai/ml'?'uppercase':'capitalize'}`}
-                                    href='#pablo'>
+                                    className={`text-sm py-2 px-4 block whitespace-nowrap ${ele=='ai/ml'?'uppercase':'capitalize'}`}>
                                     {ele}
                                 </a>
                             </li>

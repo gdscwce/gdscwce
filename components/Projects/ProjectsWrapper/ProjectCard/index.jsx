@@ -14,14 +14,14 @@ const ProjectCard = ({data:{name,description,techStack,contributors,githubLink,l
         </div>
         <div className='project-description  relative text-sm md:pr-16 flex flex-col items-center lg:items-start  md:w-2/3 '>
             <div className='project-name text-xl pt-5 pb-3 font-bold '>{name}</div>
-            <div  className='techologies-used pb-5 space-x-3 flex   overflow-x-scroll' >
+            <div  className='techologies-used pb-5 space-x-3 flex w-[100%] px-5 md:px-0  overflow-y-hidden' >
                 {techStack.map((tech,idx)=>{
-                    return <span key={idx} className='bg-indigo-200 text-indigo-800 rounded px-3 py-2' >{tech}</span>
+                    return <span key={idx} className='bg-indigo-200 whitespace-nowrap text-indigo-800 rounded px-3 py-2' >{tech}</span>
                 })}
             </div>
-            <div className='contributers pb-5'>
+            <div className='contributers py-2 mb-2 w-[100%] px-5 md:px-0   overflow-y-hidden'>
                 {contributors.map((person,idx)=>{
-                    return <span className="bg-gray-200 text-gray-800 px-3 py-2 rounded-full">{person}</span>
+                    return <span className="bg-gray-200  whitespace-nowrap text-gray-800 px-3 py-2 rounded-full mr-3">{person}</span>
                 })}
             </div>
             <div className='project-description hidden sm:block sm:text-center lg:text-left sm:px-5 lg:p-0 sm:py-3 text-gray-600  h-1/4 overflow-y-scroll'>

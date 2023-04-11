@@ -18,7 +18,7 @@ const TeamMember = ({ memeberInfo: { name, ig, github, linkedin, post, profileUr
                 <div className="TeamCard-post text-xs capitalize  pb-6">
                     {post}
                 </div>
-                <div className="TeamCard-social-links flex justify-between px-2">
+                <div className="TeamCard-social-links flex justify-between px-2 w-[130px]">
                     <Link target='_blank' href={github}>
                         <Image loader={imageLoader} className='w-6 h-6' src={githubLogo}></Image>
                     </Link>

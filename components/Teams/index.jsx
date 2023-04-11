@@ -9,7 +9,7 @@ import team_background from '../../public/assets/team_background.jpg';
 const Teams = () => {
 	const [open, setopen] = useState(false);
 	const [current, setcurrent] = useState('2022-23');
-	const [years, setyears] = useState(['2022-23', '2021-22']);
+	const [years, setyears] = useState(['2022-23']);
 	const [AllTeamsOverview, setAllTeamsOverview] = useState(allTeamsBrief);
 	return (
 		<div className='teams-container min-h-screen'>
