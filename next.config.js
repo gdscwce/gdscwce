@@ -24,7 +24,9 @@ const nextConfig = {
 }
 
 module.exports = {
-  images:{
-     domains: ['res.cloudinary.com', 'drive.google.com']
-  }
+  images: {
+    unoptimized: true,
+    domains: ['res.cloudinary.com', 'drive.google.com']
+  },
+  
 }
