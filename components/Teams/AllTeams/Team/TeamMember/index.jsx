@@ -11,7 +11,7 @@ const TeamMember = ({ memeberInfo: { name, ig, github, linkedin, post, profileUr
             <div className={`TeamCard-image-container   w-40 h-40 rounded-full overflow-hidden mb-5 border-4 border-${colorIdx%4==0?'gdsc-blue':colorIdx%4==1?'gdsc-red':colorIdx%4==2?'gdsc-green':'gdsc-yellow'}`}>
                 <Image loader={imageLoader} src={profileUrl} className='w-full h-full object-cover ' alt="Team Lead" width={0} height={0} ></Image>
             </div>
-            <div className="TeamCard-body text-center">
+            <div className="TeamCard-body text-center flex flex-col items-center">
                 <div className="TeamCard-name text-xl capitalize font-bold ">
                     {name}
                 </div>

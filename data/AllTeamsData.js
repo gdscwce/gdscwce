@@ -108,7 +108,7 @@ const allTeams = [
                 post: "Event Executive",
                 github: "https://github.com/SharvariPatil84",
                 linkedin: "https://www.linkedin.com/in/sharvari-patil-684573211/",
-                profileUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu1ZAMw2XkttJYi3cOhggQjkn1XnBgxoFOrA&usqp=CAU",
+                profileUrl: "https://firebasestorage.googleapis.com/v0/b/wce-gdsc.appspot.com/o/GDSC-WCE%2Fsharvari_patil%20-%202020BTECS00077%20PATIL%20SHARVARI%20YASHWANT.jpeg?alt=media&token=761ef504-e8a2-4ddd-8934-4c6af78442f6",
                 ig: "https://www.instagram.com/sharvari_patil_84/"
             },
             {
@@ -189,6 +189,23 @@ const allTeams = [
                 ig: "https://www.instagram.com/neeraj_1800/"
             },
             {
+                "name": "Siddhesh Mohite",
+                "post": "Research Executive",
+                "github": "https://github.com/Siddheshsm17",
+                "linkedin": "https://www.linkedin.com/in/siddhesh-mohite-763062234",
+                "profileUrl": "https://firebasestorage.googleapis.com/v0/b/wce-gdsc.appspot.com/o/GDSC-WCE%2Fsiddhesh_mohite%20-%2021510003%20MOHITE%20SIDDHESH%20SATISH.jpg?alt=media&token=c3e75ff2-251a-4c29-885e-1d77b9effe1d",
+                "ig": "https://instagram.com/siddhesh__mohite?igshid=MGNiNDI5ZTU="
+            },
+            {
+                "name": "Prathamesh Warwatkar",
+                "post": "Outreach Executive",
+                "github": "https://github.com/Prathamesh-Warwatkar",
+                "linkedin": "https://www.linkedin.com/in/prathamesh-warwatkar-49930022b",
+                "profileUrl": "https://firebasestorage.googleapis.com/v0/b/wce-gdsc.appspot.com/o/GDSC-WCE%2FPrathamesh_Warwatkar%20-%2021210054%20WARWATKAR%20PRATHAMESH%20SUHAS.jpg?alt=media&token=e075c829-e175-4507-8bdd-3b932fe7738a",
+                "ig": "https://instagram.com/warwatkarprathamesh?igshid=ZDdkNTZiNTM="
+            },
+
+            {
                 name: "Sakshi Deshmukh ",
                 post: "Outreach Executive",
                 github: "https://github.com/Sksh123",
@@ -236,6 +253,30 @@ const allTeams = [
                 linkedin: "https://www.linkedin.com/in/nehal-u-909114220/"
             },
             {
+                name: "Prajwal Shah ",
+                post: "Web Executive",
+                github: "https://github.com/pajju0330",
+                linkedin: "https://www.linkedin.com/in/prajwal-shah-976043229",
+                profileUrl: "https://firebasestorage.googleapis.com/v0/b/wce-gdsc.appspot.com/o/GDSC-WCE%2FInShot_20220512_084500979%20-%2021610009%20PRAJWAL%20UTKARSH%20SHAH.jpg?alt=media&token=2445ba75-7634-4f96-9a23-fe1f2fdeba44",
+                ig: "https://www.instagram.com/pajju_0330/"
+            },
+            {
+                name: "Ayush Godbole",
+                post: "Web Member",
+                github: "https://github.com/Ayush9022",
+                linkedin: "https://www.linkedin.com/in/ayush-godbole-34b464250/",
+                profileUrl: "https://firebasestorage.googleapis.com/v0/b/wce-gdsc.appspot.com/o/GDSC-WCE%2Fayush_godbole%20-%20Ayush%20Godbole.jpg?alt=media&token=bebd5a9b-2cc9-48c8-81d4-27924b3f9a78",
+                ig: " https://www.instagram.com/ayushgodbole07/"
+            },
+            {
+                name: "Swarada Bhosale",
+                post: "Web Member",
+                github: "https://github.com/swarraaa",
+                linkedin: "https://www.linkedin.com/in/swarada-bhosale/",
+                profileUrl: "https://firebasestorage.googleapis.com/v0/b/wce-gdsc.appspot.com/o/GDSC-WCE%2Fswarada_bhosale%20-%20Swarada%20Bhosale.jpg?alt=media&token=55fc0824-2b26-4ca2-8bae-49d0cbddd6f1",
+                ig: "https://instagram.com/__.swaraa.__?igshid=ZDdkNTZiNTM="
+            },
+            {
                 name: "Harsh Karwa",
                 post: "Web Member",
                 github: "https://github.com/harsh-1503",
@@ -244,12 +285,12 @@ const allTeams = [
                 ig: "https://www.instagram.com/_harsh_1503"
             },
             {
-                name: "Sameer karemore",
-                post: "App Member",
-                github: "samirkaremore612",
-                linkedin: "https://www.linkedin.com/in/sameer-karemore-290a95224",
-                profileUrl: "https://firebasestorage.googleapis.com/v0/b/wce-gdsc.appspot.com/o/GDSC-WCE%2Fsameer_karemore%20-%2021410030%20KAREMORE%20SAMEER%20BALIRAM.jpg?alt=media&token=712511f7-3e5c-4cb9-8dc1-c2463d9ffb37",
-                ig: "samirkaremore@612"
+                "name": "Sandesh Sapkal ",
+                "post": "App Executive",
+                "github": "https://github.com/Sandesh-03",
+                "linkedin": "https://www.linkedin.com/in/sandesh-sapkal-843042230",
+                "profileUrl": "https://firebasestorage.googleapis.com/v0/b/wce-gdsc.appspot.com/o/GDSC-WCE%2FSandesh_Sapkal%20-%2021610040%20SAPKAL%20SANDESH%20MILIND.jpg?alt=media&token=5b5691c9-871f-4d71-beaf-e1c293eb7430",
+                "ig": "https://instagram.com/sandesh.s03"
             },
             {
                 name: "Brijesh kumar",
@@ -260,12 +301,52 @@ const allTeams = [
                 ig: "instagram.thinkspiration.live"
             },
             {
+                name: "Sameer karemore",
+                post: "App Member",
+                github: "samirkaremore612",
+                linkedin: "https://www.linkedin.com/in/sameer-karemore-290a95224",
+                profileUrl: "https://firebasestorage.googleapis.com/v0/b/wce-gdsc.appspot.com/o/GDSC-WCE%2Fsameer_karemore%20-%2021410030%20KAREMORE%20SAMEER%20BALIRAM.jpg?alt=media&token=712511f7-3e5c-4cb9-8dc1-c2463d9ffb37",
+                ig: "samirkaremore@612"
+            },
+            {
+                "name": "Onkar Yemul ",
+                "post": "Cloud Member",
+                "github": "https://github.com/onkaryemul",
+                "linkedin": "https://linkedin.com/in/onkar-yemul-2bab74238",
+                "profileUrl": "https://firebasestorage.googleapis.com/v0/b/wce-gdsc.appspot.com/o/GDSC-WCE%2Fonkar_yemul%20-%2021510017%20YEMUL%20ONKAR%20ANAND.jpg?alt=media&token=64908947-5c91-413a-9b4f-2a4c834cd6b4",
+                "ig": "https://www.instagram.com/onkar_yemul_2003/"
+            },
+            {
+                name: "Yashashwi Patil",
+                post: "Cloud Member",
+                github: "https://github.com/Yashashwi0708",
+                linkedin: "https://www.linkedin.com/in/yashashwi-patil-95b824225",
+                profileUrl: "https://firebasestorage.googleapis.com/v0/b/wce-gdsc.appspot.com/o/GDSC-WCE%2FScreenshot_2022-09-08-22-24-19-70_6012fa4d4ddec268fc5c7112cbb265e7%20-%2021610020%20PATIL%20YASHASHWI%20KAILAS.jpg?alt=media&token=b6d3ed09-4693-4431-ad09-f34f45afe3e5",
+                ig: "https://www.instagram.com/yashashwi_patil.07/"
+            },
+            {
                 name: "Aryan Raina",
                 post: "CyberSec Executive",
                 github: "https://github.com/aryanraina190",
                 linkedin: "https://www.linkedin.com/in/aryan-raina-028403179",
                 profileUrl: "https://firebasestorage.googleapis.com/v0/b/wce-gdsc.appspot.com/o/GDSC-WCE%2Faryan_raina%20-%20Aryan%20Raina.jpg?alt=media&token=914da69b-e150-4e16-9988-2ee68bb1ecea",
                 ig: "https://www.instagram.com/aryanraina190/"
+            },
+            {
+                "name": "Janpreet singh",
+                "post": "CyberSec Member",
+                "github": "https://github.com/JanpreetWazir",
+                "linkedin": "https://www.linkedin.com/in/janpreet-singh-120009222",
+                "profileUrl": "https://firebasestorage.googleapis.com/v0/b/wce-gdsc.appspot.com/o/GDSC-WCE%2FIMG_20230412_111634%20-%2021610062%20JANPREET%20SINGH.jpg?alt=media&token=be83f807-b052-4908-bd7b-c9c98b2f9fb1",
+                "ig": "https://instagram.com/janpreet__singh__?igshid=ZDdkNTZiNTM="
+            },
+            {
+                "name": "Prerna Pawar",
+                "post": "CyberSec Member",
+                "github": "https://github.com/Prerna-Pawar",
+                "linkedin": "https://www.linkedin.com/in/prerna-pawar-673531234",
+                "profileUrl": "https://firebasestorage.googleapis.com/v0/b/wce-gdsc.appspot.com/o/GDSC-WCE%2Fprerna_pawar_1%20-%2021610014%20PAWAR%20PRERNA%20RAMESHWAR.jpg?alt=media&token=aace5e52-6e06-4607-9ad0-85c40df23a4f",
+                "ig": "https://instagram.com/prerna_pawar.14?igshid=ZDdkNTZiNTM="
             },
             {
                 name: "Siddhi Phatak",
@@ -292,6 +373,14 @@ const allTeams = [
                 linkedin: "https://www.linkedin.com/in/nishad-bagade-b94407b1",
                 profileUrl: "https://firebasestorage.googleapis.com/v0/b/wce-gdsc.appspot.com/o/GDSC-WCE%2Fnishad_bagade%20-%20Nishad%20Bagade.jpg?alt=media&token=a98200e6-2d76-4ef6-a3bd-220719d6c10f",
                 ig: "Not applicable "
+            },
+            {
+                "name": "Jay Shirgupe ",
+                "post": "AI/ML Member",
+                "github": "https://github.com/Jay7221",
+                "linkedin": "https://www.linkedin.com/in/jay-shirgupe-650ab7233/",
+                "profileUrl": "https://firebasestorage.googleapis.com/v0/b/wce-gdsc.appspot.com/o/GDSC-WCE%2FJay_Shirgupe%20-%20Jay%20Shirgupe.jpg?alt=media&token=963d1d9d-aac0-4365-95d6-e80c229e6ea7",
+                "ig": "."
             },
             {
                 name: "Vishwajeet Sawant",
