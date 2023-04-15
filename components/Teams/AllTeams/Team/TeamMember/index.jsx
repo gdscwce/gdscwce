@@ -20,13 +20,13 @@ const TeamMember = ({ memeberInfo: { name, ig, github, linkedin, post, profileUr
                 </div>
                 <div className="TeamCard-social-links flex justify-between px-2 w-[130px]">
                     <Link target='_blank' href={github}>
-                        <Image loader={imageLoader} className='w-6 h-6' src={githubLogo}></Image>
+                        <Image alt='' loader={imageLoader} className='w-6 h-6' src={githubLogo}></Image>
                     </Link>
                     <Link target='_blank' href={ig}>
-                        <Image loader={imageLoader} className='w-6 h-6' src={igLogo}></Image>
+                        <Image alt='' loader={imageLoader} className='w-6 h-6' src={igLogo}></Image>
                     </Link>
                     <Link target='_blank' href={linkedin}>
-                        <Image loader={imageLoader} className='w-6 h-6' src={linkedinLogo}></Image>
+                        <Image alt='' loader={imageLoader} className='w-6 h-6' src={linkedinLogo}></Image>
                     </Link>
 
                 </div>

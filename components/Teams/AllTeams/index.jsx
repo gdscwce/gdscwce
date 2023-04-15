@@ -7,7 +7,7 @@ const AllTeams = () => {
         <>
          <i> * Site under maintainance * </i>
             {allTeams.map((team, idx) => {
-                return <Team data={team} />
+                return <Team key={idx} data={team} />
             })
             }
         </>
