@@ -31,7 +31,7 @@ const allTeamsBrief = [
         Name: "Technical",
         Lead: "Daulatrao Patil",
         hasAssociates: true,
-        Associates: ["Neha Gddam", " Chetna Patil"],
+        Associates: ["Neha Gaddam", " Chetna Patil"],
         memberCount: 30,
     }
 ]

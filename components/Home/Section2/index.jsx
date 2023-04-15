@@ -13,8 +13,8 @@ const Section2 = () => {
 					<h1 className='hero-title text-4xl font-bold  w-full'>Who We Are</h1>
 					<p className='hero-description  text-gray-500  leading-5 '>
 						Google Developer Students' Club (GDSC) WCE is a community of talents from various
-						fields who mostly focus on google technologies and events promoted by google .
-						our events and activities center around once advancement in both technical and
+						fields who mostly focus on google technologies and events promoted by google.
+						Our events and activities center around once advancement in both technical and
 						non technical areas. While doing so we work as a team and develop new friends who will
 						support you and grow with you. We want to create a healthy environment for the budding
 						developers to exploring solutions to real life problems and promote the developer culture.

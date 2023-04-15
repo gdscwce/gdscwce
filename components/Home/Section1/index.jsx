@@ -15,7 +15,7 @@ const Section1 = () => {
 						Welcome to
 						<br className='sm:hidden' /> GDSC-WCE{' '}
 					</h1>
-					<div className="subheading mt-3 capitalize">It's welcomed gift to encourage others to achive greatness</div>
+					<div className="subheading mt-3 capitalize">It's welcomed gift to encourage others to achieve greatness</div>
 				</div>
 					<p className='hero-description   text-gray-500  leading-5'>
 					

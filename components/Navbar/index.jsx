@@ -54,17 +54,7 @@ const Navbar = () => {
 						className=' mb-5 px-3 pb-2 border-b-4 border-gdsc-green'>
 						About us
 					</Link>
-					<div
-						onClick={() => {setsidebarOpen(!sidebarOpen)
-							scrollToElement(`#contactUs`, {
-								offset: -20,
-								ease: '',
-								duration: 0
-							})
-						}}
-						className=' px-3 pb-2 cursor-pointer mx-4 border-b-4 border-gdsc-blue'>
-						Contact us
-					</div>
+
 				</div>
 			</div>
 
@@ -110,12 +100,19 @@ const Navbar = () => {
 				<Link href='about' className='mr-5'>
 					About us
 				</Link>
-				<div
-					onClick={e => scrollToElement(`#contactUs`, {
+				{/* <div
+					onClick={e => window.location.pathname = '/' ? scrollToElement(`#contactUs`, {
 						offset: -80,
 						ease: '',
 						duration: 0
-					})}
+					}): window.location.href = 'mailto:gdscwce@walchandsangli.ac.in'}
+					className='bg-gdsc-blue drop-shadow-lg cursor-pointer text-white px-6 py-3.5 mx-4  rounded-full'>
+					Contact us
+				</div> */}
+				<div
+					onClick={e => {
+						window.location.href = 'mailto:gdsc@walchandsangli.ac.in'
+					}}
 					className='bg-gdsc-blue drop-shadow-lg cursor-pointer text-white px-6 py-3.5 mx-4  rounded-full'>
 					Contact us
 				</div>

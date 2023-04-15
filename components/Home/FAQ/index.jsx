@@ -44,7 +44,7 @@ const FAQ = () => {
 						<AccordionBody className='text-left pt-3 text-gray-500'>
 							Google Developer Student Club Walchand College of Engineering
 							(GDSC-WCE) is community groups for WCE students interested in
-							Google developer technologies. ... By joining a GDSC WCE, students
+							Google developer technologies.By joining a GDSC WCE, students
 							grow their knowledge in a peer-to-peer learning environment and
 							build solutions for local businesses and their community.
 						</AccordionBody>
