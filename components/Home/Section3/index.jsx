@@ -1,11 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import hero from '../../../public/assets/hero3_v2.png';
 import Image from 'next/image';
 import imageLoader from '../../../loader';
+import { sendEmail } from '../../../utils/SendMail';
 
-imageLoader
+// imageLoader
+
+
 
 const Section3 = () => {
+	const [data, setData] = useState({ from_name: '', from_email: '', message: '' });
+	const sendEmails = async () => {
+		const response = await sendEmail(data.from_email, data.from_name, data.message);
+		if (response?.status === 200) {
+			alert('Email sent successfully');
+		} else {
+			alert('Email not sent');
+		}
+	};
+
 	return (
 		<div id="contactUs" className='  lg:h-80vh mt-20 md:mt-10 mb-20 flex  items-center justify-center '>
 			<div className='hero flex    items-center  flex-col '>
@@ -25,6 +38,8 @@ const Section3 = () => {
 						<div className='inp flex flex-col '>
 							<label htmlFor='name'>Your Name</label>
 							<input
+								value={data.from_name}
+								onChange={(e) => setData({ ...data, from_name: e.target.value })}
 								className='h-10  border outline-none pl-5   rounded-lg'
 								type='text'
 							/>
@@ -32,6 +47,8 @@ const Section3 = () => {
 						<div className='inp flex flex-col '>
 							<label htmlFor='email'>Your Email</label>
 							<input
+								value={data.from_email}
+								onChange={(e) => setData({ ...data, from_email: e.target.value })}
 								className='h-10  border outline-none pl-5   rounded-lg'
 								type='email'
 							/>
@@ -39,6 +56,8 @@ const Section3 = () => {
 						<div className='inp flex flex-col '>
 							<label htmlFor='message'>Your Message</label>
 							<textarea
+								value={data.message}
+								onChange={(e) => setData({ ...data, message: e.target.value })}
 								className=' border outline-none pl-5  pt-3  rounded-lg '
 								cols='30'
 								rows='5'></textarea>
@@ -46,6 +65,7 @@ const Section3 = () => {
 						<input
 							className='text-white  cursor-pointer bg-black rounded-lg py-2'
 							type='submit'
+							onClick={sendEmails}
 							value='Send Message'
 						/>
 					</div>

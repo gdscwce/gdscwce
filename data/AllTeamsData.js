@@ -297,7 +297,7 @@ const allTeams = [
                 post: "App Member",
                 github: "samirkaremore612",
                 linkedin: "https://www.linkedin.com/in/sameer-karemore-290a95224",
-                profileUrl: "https://firebasestorage.googleapis.com/v0/b/wce-gdsc.appspot.com/o/GDSC-WCE%2Fsameer_karemore%20-%2021410030%20KAREMORE%20SAMEER%20BALIRAM.jpg?alt=media&token=712511f7-3e5c-4cb9-8dc1-c2463d9ffb37",
+                profileUrl: "https://firebasestorage.googleapis.com/v0/b/wce-gdsc.appspot.com/o/WhatsApp%20Image%202023-04-15%20at%2010.31.27%20PM.jpeg?alt=media&token=32469b75-b47a-4ac2-b490-45b7cdce0eaa",
                 ig: "https://instagram.com/samirkaremore@612"
             },
             {

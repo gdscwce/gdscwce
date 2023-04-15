@@ -10,7 +10,7 @@ const Section1 = () => {
 		<div className='h-screen  flex items-center justify-center '>
 			<div className='hero flex mt-20 sm:mt-52   lg:-mt-20 lg:flex-row flex-col'>
 				<div className='hero-text lg:w-1/2  p-3 flex flex-col flex-nowrap  justify-center items-start space-y-5 pr-0 sm:pr-12 md:pr-40'>
-				<div classNames='head-title-container'>
+				<div className='head-title-container'>
 					<h1 className='hero-title text-4xl font-bold tracking-wide'>
 						Welcome to
 						<br className='sm:hidden' /> GDSC-WCE{' '}
