@@ -108,7 +108,7 @@ const allTeams = [
                 post: "Event Executive",
                 github: "https://github.com/SharvariPatil84",
                 linkedin: "https://www.linkedin.com/in/sharvari-patil-684573211/",
-                profileUrl: "https://firebasestorage.googleapis.com/v0/b/wce-gdsc.appspot.com/o/GDSC-WCE%2Fsharvari_patil%20-%202020BTECS00077%20PATIL%20SHARVARI%20YASHWANT.jpeg?alt=media&token=761ef504-e8a2-4ddd-8934-4c6af78442f6",
+                profileUrl: "https://firebasestorage.googleapis.com/v0/b/wce-gdsc.appspot.com/o/WhatsApp%20Image%202023-04-15%20at%2010.11.15%20PM.jpeg?alt=media&token=8f735734-add7-4bf6-9a53-0df6ad578bb0",
                 ig: "https://www.instagram.com/sharvari_patil_84/"
             },
             {
