@@ -22,7 +22,7 @@ const projects = {
             "name": "DEVOPS GDSC",
             "description": "GDSC DEVOPS SERIES specifically focused on Docker.",
             "techStack": ["Javascript", "HTML", "Dockerfile"],
-            "contributors": ["Aaradhya Pitlawar", "Tushar Patil", "Neha Gaddam", "Prajwal Shah", "Vaishnavi Nagarale",],
+            "contributors": ["Aaradhya Pitlawar", "Tushar Patil", "Neha Gaddam","Nehal Ughade", "Prajwal Shah", "Vaishnavi Nagarale",],
             "githubLink": "https://github.com/gdscwce/DEVOPS-GDSC",
             "image": "https://www.neovasolutions.com/wp-content/uploads/2020/05/container-and-docker-min.png",
 
@@ -33,7 +33,7 @@ const projects = {
             "name": "Leetcode Questions",
             "description": "Most tagged Interview questions of Leetcode.",
             "techStack": ["C++", "Jupyter Notebook", "C", "Java"],
-            "contributors": ["Aaradhya Pitlawar", "Tushar Patil", "Neha Gaddam", "Prajwal Shah", "Vaishnavi Nagarale",],
+            "contributors": ["All WCE",],
             "githubLink": "https://github.com/gdscwce/DEVOPS-GDSC",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhtHakscGB4ga0ZpHTnEuroANJY51ZrhqNIFaq9_bRheMxyyrjDMXyKJleyAiAvome6TA&usqp=CAU",
 
