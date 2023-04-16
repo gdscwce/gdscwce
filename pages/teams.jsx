@@ -6,7 +6,7 @@ const teams = () => {
 		<>
 			<NextSeo
 				title='Teams | GDSC WCE'
-				description='A short description goes here.'
+				description='Official website of GDSC WCE'
 			/>
 			<Teams />
 		</>
