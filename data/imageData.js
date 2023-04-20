@@ -44,6 +44,8 @@ import vishwajeet from '../public/images/Technical/AI-ML/vishwajeet.jpg'
 import aaradhya from '../public/images/Technical/Cloud/aaradhya.jpg'
 import yashaswi from '../public/images/Technical/Cloud/yashaswi.jpg'
 import onkar from '../public/images/Technical/Cloud/onkar.jpg'
+import aaditya from '../public/images/Technical/Cloud/aadtiya.jpg'
+
 
 //  cyber security
 import janpreet from '../public/images/Technical/Cyber Security/janpreet.jpg'
@@ -87,6 +89,7 @@ const data = {
     aaradhya,
     yashaswi,
     onkar,
+    aaditya,
     janpreet,
     prerna,
     siddhi,

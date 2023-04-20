@@ -7,17 +7,17 @@ const allTeams = [
                 name: "Nirmit Chatto",
                 profileUrl: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/nirmit_chattoo_9cCKGK8.jpeg",
                 post: "Lead",
-                ig: "https://www.instagram.com/nehal.jsx/",
-                github: "https://github.com/coderNehal",
-                linkedin: "https://www.linkedin.com/in/nehal-u-909114220/"
+                ig: "https://www.instagram.com/alagix12/",
+                github: "https://github.com/nirmitchattoo",
+                linkedin: "https://www.linkedin.com/in/nirmitchattoo/"
             },
             {
                 name: "Sapna Khedkar",
                 profileUrl: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/sapana_khedkar_lMBrTMr.jpg",
                 post: "Creative and Social Lead",
-                ig: "https://www.instagram.com/nehal.jsx/",
-                github: "https://github.com/coderNehal",
-                linkedin: "https://www.linkedin.com/in/nehal-u-909114220/"
+                ig: "https://www.instagram.com/sap__a__na/",
+                github: "https://github.com/sapana-k",
+                linkedin: "https://www.linkedin.com/in/sapana-khedkar-572ab9218/"
             },
             {
                 name: "Nehal Ughade",
@@ -31,33 +31,33 @@ const allTeams = [
                 name: "Aman Agarwal",
                 profileUrl: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/aman_agrawal_pYJjVt5.jpg",
                 post: "E-CELL Lead",
-                ig: "https://www.instagram.com/nehal.jsx/",
-                github: "https://github.com/coderNehal",
-                linkedin: "https://www.linkedin.com/in/nehal-u-909114220/"
+                ig: "https://www.instagram.com/a_man1005/",
+                github: "https://github.com/Aman-letscode",
+                linkedin: "https://www.linkedin.com/in/aman-agrawal-35504a1ba/"
             },
             {
                 name: "Neha Gaddam",
                 profileUrl: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/neha_gaddam_kB5avcS.jpg",
                 post: "Technical Associate Lead",
-                ig: "https://www.instagram.com/nehal.jsx/",
-                github: "https://github.com/coderNehal",
-                linkedin: "https://www.linkedin.com/in/nehal-u-909114220/"
+                ig: "https://www.instagram.com/_gaddam_neha/",
+                github: "https://github.com/Nehagaddam2909/",
+                linkedin: "https://www.linkedin.com/in/neha-gaddam/"
             },
             {
                 name: "Daulatrao Patil",
                 profileUrl: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/daulatrao_patil_wCp1NoN.jpg",
                 post: "Technical Lead",
-                ig: "https://www.instagram.com/nehal.jsx/",
-                github: "https://github.com/coderNehal",
-                linkedin: "https://www.linkedin.com/in/nehal-u-909114220/"
+                ig: "ERROR_404",
+                github: "https://github.com/RAOdotSH",
+                linkedin: "https://www.linkedin.com/in/daulatrao-patil/"
             },
             {
                 name: "Chetna Patil",
                 profileUrl: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/chetana_patil_mdomMlL.jpg",
                 post: "Technical Associate Lead",
-                ig: "https://www.instagram.com/nehal.jsx/",
-                github: "https://github.com/coderNehal",
-                linkedin: "https://www.linkedin.com/in/nehal-u-909114220/"
+                ig: "https://www.instagram.com/chetanaa_patil/",
+                github: "https://github.com/Chetana21",
+                linkedin: "https://www.linkedin.com/in/chetana-patil-723974211/"
             },
 
         ]
@@ -129,9 +129,9 @@ const allTeams = [
                 name: "Sapna Khedkar",
                 profileUrl: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/sapana_khedkar_lMBrTMr.jpg",
                 post: "Creative and Social Lead",
-                ig: "https://www.instagram.com/nehal.jsx/",
-                github: "https://github.com/coderNehal",
-                linkedin: "https://www.linkedin.com/in/nehal-u-909114220/"
+                ig: "https://www.instagram.com/sap__a__na/",
+                github: "https://github.com/sapana-k",
+                linkedin: "https://www.linkedin.com/in/sapana-khedkar-572ab9218/"
             },
             {
                 name: "Rutuja Pol",
@@ -168,9 +168,9 @@ const allTeams = [
                 name: "Aman Agarwal",
                 profileUrl: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/aman_agrawal_pYJjVt5.jpg",
                 post: "E-CELL Lead",
-                ig: "https://www.instagram.com/nehal.jsx/",
-                github: "https://github.com/coderNehal",
-                linkedin: "https://www.linkedin.com/in/nehal-u-909114220/"
+                ig: "https://www.instagram.com/a_man1005/",
+                github: "https://github.com/Aman-letscode",
+                linkedin: "https://www.linkedin.com/in/aman-agrawal-35504a1ba/"
             },
             {
                 name: "Swayambhu Hingane",
@@ -243,30 +243,31 @@ const allTeams = [
     {
         "TeamName": "Technical",
         "TeamMembers": [
-
             {
                 name: "Daulatrao Patil",
                 profileUrl: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/daulatrao_patil_wCp1NoN.jpg",
                 post: "Technical Lead",
-                ig: "https://www.instagram.com/nehal.jsx/",
-                github: "https://github.com/coderNehal",
-                linkedin: "https://www.linkedin.com/in/nehal-u-909114220/"
+                ig: "ERROR_404",
+                github: "https://github.com/RAOdotSH",
+                linkedin: "https://www.linkedin.com/in/daulatrao-patil/"
             },
+
             {
                 name: "Neha Gaddam",
                 profileUrl: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/neha_gaddam_kB5avcS.jpg",
                 post: "Technical Associate Lead",
-                ig: "https://www.instagram.com/nehal.jsx/",
-                github: "https://github.com/coderNehal",
-                linkedin: "https://www.linkedin.com/in/nehal-u-909114220/"
+                ig: "https://www.instagram.com/_gaddam_neha/",
+                github: "https://github.com/Nehagaddam2909/",
+                linkedin: "https://www.linkedin.com/in/neha-gaddam/"
             },
+
             {
                 name: "Chetna Patil",
                 profileUrl: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/chetana_patil_mdomMlL.jpg",
                 post: "Technical Associate Lead",
-                ig: "https://www.instagram.com/nehal.jsx/",
-                github: "https://github.com/coderNehal",
-                linkedin: "https://www.linkedin.com/in/nehal-u-909114220/"
+                ig: "https://www.instagram.com/chetanaa_patil/",
+                github: "https://github.com/Chetana21",
+                linkedin: "https://www.linkedin.com/in/chetana-patil-723974211/"
             },
             {
                 name: "Prajwal Shah ",
@@ -355,6 +356,14 @@ const allTeams = [
                 linkedin: "https://www.linkedin.com/in/yashashwi-patil-95b824225",
                 profileUrl: data.yashaswi,
                 ig: "https://www.instagram.com/yashashwi_patil.07/"
+            },
+            {
+                name: "Aaditya Jawanjal",
+                post: "Cloud Member",
+                github: "https://github.com/aadityajawanjal34",
+                linkedin: "https://www.linkedin.com/in/aaditya-jawanjal-4ab1ba248/",
+                profileUrl: data.aaditya,
+                ig: "https://www.instagram.com/aadi_34_aj/"
             },
             {
                 name: "Aryan Raina",
